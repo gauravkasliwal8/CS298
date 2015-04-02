@@ -1,0 +1,119 @@
+/* Authored by Joseph De Araujo */
+
+
+.menuLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #616161;
+	text-decoration: none;
+}
+
+a.menuLink:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E6851C;
+}
+h5 {
+	font-family: Tahoma;
+	font-size: 15px;
+	font-weight: bold;
+	color: #E6851C;
+}
+
+.Page_Name {
+	font-size: 14px;
+	font-weight: bold;
+}
+body, td, p, select, input, textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #545454;
+}
+
+a {
+	color: #E6851C;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #E6851C;
+	text-decoration: underline;
+}
+
+.sidenewshdr{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color: #FFFFFF;
+}
+
+.navbar{
+background-image:url(images/navbg_dn.gif);
+}
+
+.searchlink, .searchlink:hover {
+color: #FFFFFF;
+text-decoration:none;
+}
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+	background: #F4AB21 url('table-images/left.png') left -1px no-repeat;
+	text-align: right;
+	
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #F4AB22 url('table-images/right.png') right -1px no-repeat;
+	text-align: left;
+}
+#rounded-corner th
+{
+	padding: 0px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #FFF;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #F2DC8E;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #FC6;
+}
+#popupbox{
+  margin: 0; 
+  margin-left: 40%; 
+  margin-right: 40%;
+  margin-top: 50px; 
+  padding-top: 10px; 
+  width: 20%; 
+  height: 150px; 
+  position: absolute; 
+  background: #FBFBF0; 
+  border: solid #000000 2px; 
+  z-index: 9; 
+  font-family: arial; 
+  visibility: hidden; 
+  }
